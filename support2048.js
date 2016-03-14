@@ -1,5 +1,5 @@
-documentWidth=window.screen.availWidth;
-documentHeight=window.screen.availHeight;
+documentWidth=document.documentElement.clientWidth;
+documentHeight=document.documentElement.clientHeight;
 gridContainerWidth=0.92*documentWidth;
 cellSideLength=0.18*documentWidth;
 cellSpace=0.04*documentWidth;
