@@ -162,7 +162,7 @@ document.addEventListener('touchmove',function(event){
     event.preventDefault();
 });
 document.addEventListener('touchend',function(event){
-    event.preventDefault();
+    //event.preventDefault();
     endx=event.changedTouches[0].pageX;
     endy=event.changedTouches[0].pageY;
     var deltax=endx-startx,
